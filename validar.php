@@ -12,7 +12,7 @@ $filas=mysqli_num_rows($resultado);
 
 if($filas){
 
-    header("location:dashboard/home.php");
+    header("location:control/dash.html");
 
 }else{
     ?>
